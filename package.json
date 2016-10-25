@@ -2,7 +2,13 @@
   "name": "winston-wingman",
   "version": "1.0.1",
   "description": "Offers convenience funtions for using the winston logger",
-  "main": "winston-wingman.js",
+  "main": "./lib/winston-wingman.js",
+  "directories": {
+    "lib": "./lib",
+    "doc": "./doc",
+    "test": "./test",
+    "example": "./example"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generateDocs": "node_modules/.bin/jsdoc lib/ --destination doc/"
