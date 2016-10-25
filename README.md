@@ -1,5 +1,5 @@
 # winston-wingman
-
+[![npm version](https://badge.fury.io/js/winston-wingman.svg)](https://badge.fury.io/js/winston-wingman)
 ## Synopsis
 The winston-wingman module supplies common defaults to the winston logger.
 It also offers an easy interface for modifying transports on the fly
