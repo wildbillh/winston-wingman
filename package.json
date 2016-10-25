@@ -1,6 +1,6 @@
 {
   "name": "winston-wingman",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Offers convenience funtions for using the winston logger",
   "main": "winston-wingman.js",
   "scripts": {
