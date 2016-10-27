@@ -6,7 +6,7 @@ It also offers an easy interface for modifying transports on the fly
 and encapsulates the underlying loading.
 Once the module has loaded, you can use either the exposed winston object, 
 or just require winston in the normal way in your source files.
-Usually the top level file in a project will require winston-helper and make any configuration 
+Usually the top level file in a project will require winston-wingman and make any configuration 
 changes. All other modules will just require the winston module. 
 See the documentation of the winston module for additional features; https://github.com/winstonjs/winston.
 
