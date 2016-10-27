@@ -20,7 +20,7 @@ $ npm install winston-wingman --save
 ```javascript
 // In the main startup file configure the logger
 var wingman = require('winston-wingman');
-var winston = logger.winston;
+var winston = wingman.winston;
 
 // change the name of the logfile to be used.
 logger.mergeFileTransport({filename: 'logs/myspecialname.log'});
