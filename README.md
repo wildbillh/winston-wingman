@@ -19,12 +19,45 @@ $ npm install winston-wingman --save
 ## Usage
 ```javascript
 // In the main startup file configure the logger
-var wingman = require('winston-wingman');
-var winston = wingman.winston;
+let logger = require('winston-wingman');
+let winston = logger.winston;
+
+// All of your other js files that log, can use either below
+// let winston = require('winston');
+// let winston = require('winston-wingman').winston;
 
 // change the name of the logfile to be used.
 logger.mergeFileTransport({filename: 'logs/myspecialname.log'});
 
+winston.info('logging is easy');
+
+```
+
+##Default Configuration
+
+If no additional configurations are used, here are the defaults: 
+
+```javascript
+let currentConsoleTransport = {
+    timestamp: (function() {return new Date().toLocaleString();}) ,
+    colorize: true,
+    level: 'info',
+    handleExceptions: true,
+    humanReadableUnhandledException: true
+};
+
+ let currentFileTransport = {
+    filename: 'app.log',
+    timestamp: (function() {return new Date().toLocaleString();}) ,
+    level: 'info',
+    handleExceptions: true,
+    humanReadableUnhandledException: true,
+    maxsize: 10000,
+    maxFiles: 5,
+    tailable: true,
+    json: false,
+    zippedArchive: true
+};
 ```
 
 ## Documentation
