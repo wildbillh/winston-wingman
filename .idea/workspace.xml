@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b0529ebb-34c9-4d9a-83c3-5417cde82c14" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.npmignore" afterPath="$PROJECT_DIR$/.npmignore" />
     </list>
     <ignored path="winston-wingman.iws" />
@@ -313,12 +311,12 @@
       <workItem from="1477594298285" duration="1852000" />
       <workItem from="1477648165744" duration="19000" />
       <workItem from="1478716644027" duration="314000" />
-      <workItem from="1481744244873" duration="569000" />
+      <workItem from="1481744244873" duration="900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9316000" />
+    <option name="totallyTimeSpent" value="9647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
