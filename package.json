@@ -25,9 +25,9 @@
   "author": "Bill Hodges",
   "license": "ISC",
   "dependencies": {
-    "winston": "^2.2.0"
+    "winston": "^2.4.0"
   },
   "devDependencies": {
-    "jsdoc": "^3.4.2"
+    "jsdoc": "^3.5.5"
   }
 }
