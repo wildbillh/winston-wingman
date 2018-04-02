@@ -23,7 +23,7 @@
     "functions"
   ],
   "author": "Bill Hodges",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "winston": "^2.4.0"
   },
